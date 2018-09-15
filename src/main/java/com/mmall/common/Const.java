@@ -13,6 +13,8 @@ public class Const {
     public static final String USERNAME = "username";
 
 
+
+
     public interface Cart{
         int CHECKED = 1;   //购物车选中状态
         int UN_CHECKED = 0;    //购物车为未选中状态
@@ -50,4 +52,43 @@ public class Const {
             return code;
         }
     }
+
+
+    public enum OrderStatusEnum{
+        CANCELED(0,"已取消"),
+        NO_PAY(10,"未支付"),
+        PAID(20,"已付款"),
+        SHIPPED(40,"已发货"),
+        ORDER_SUCCESS(50,"订单完成"),
+        ORDER_CLOSE(60,"订单关闭");
+
+
+        OrderStatusEnum(int code, String value) {
+            this.value = value;
+            this.code = code;
+        }
+
+        private String value;
+        private int code;
+
+        public String getValue() {
+            return value;
+        }
+
+        public int getCode() {
+            return code;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
