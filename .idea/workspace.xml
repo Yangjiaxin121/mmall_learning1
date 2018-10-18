@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686464e5-4b5b-4da2-bcd9-c49706f9b700" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,7 +61,7 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gitignore" value="295" />
-          <entry key="java" value="42716" />
+          <entry key="java" value="42962" />
           <entry key="jsp" value="162" />
           <entry key="md" value="4" />
           <entry key="properties" value="435" />
@@ -72,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="42716" />
+          <entry key="JAVA" value="42962" />
           <entry key="JSP" value="162" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="303" />
@@ -163,8 +161,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+            <state relative-caret-position="254">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -172,11 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="13">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -519,7 +514,7 @@
     <property name="SearchEverywhereHistoryKey" value="js&#9;FILE&#9;file:///Users/yangjiaxin/IdeaProjects/mmall/src/main/webapp/index.jsp&#10;mmall&#9;FILE&#9;file:///Users/yangjiaxin/IdeaProjects/mmall/src/main/resources.prod/mmall.properties" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539857892820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539860334287" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -823,12 +818,12 @@
       <workItem from="1539153414000" duration="9279000" />
       <workItem from="1539334031037" duration="20000" />
       <workItem from="1539339157036" duration="88000" />
-      <workItem from="1539661056400" duration="24842000" />
+      <workItem from="1539661056400" duration="27135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249021000" />
+    <option name="totallyTimeSpent" value="251314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1237,18 +1232,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="13">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+        <state relative-caret-position="254">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
         </state>
       </provider>
     </entry>
