@@ -175,7 +175,7 @@ public class UserServiceImpl implements IUserService {
                 return ServerResponse.createBySuccessMessage("修改密码成功");
             }
         }else{
-            return ServerResponse.createByErrorMessage("token错误，请重新获取充值密码的toiken");
+            return ServerResponse.createByErrorMessage("token错误，请重新获取充值密码的token");
         }
         return ServerResponse.createByErrorMessage("修改密码失败");
 

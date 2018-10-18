@@ -14,6 +14,9 @@ public class Const {
 
 
 
+    public interface RedisCacheExtime{
+        int REDIS_SESSION_EXTIME = 60*30;  //设置时间为30分钟
+    }
 
     public interface Cart{
         int CHECKED = 1;   //购物车选中状态
@@ -78,6 +81,78 @@ public class Const {
         public int getCode() {
             return code;
         }
+
+
+        public static OrderStatusEnum codeOf(int code){
+            for (OrderStatusEnum orderStatusEnum: values()) {
+                if (orderStatusEnum.getCode() == code){
+                    return orderStatusEnum;
+                }
+            }
+            throw new RuntimeException("没有找到对应的枚举");
+        }
+    }
+
+    public interface AlipayCallback{
+
+        String TRADE_STATUS_WAIT_BUYER_PAY = "WAIT_BUYER_PAY";
+        String TRADE_STATUS_TRADE_SUCCESS = "TRADE_SUCCESS";
+
+        String RESPONSE_SUCCESS = "success";
+        String RESPONSE_FAILED = "failed";
+    }
+
+    public enum PayPlatformEnum{
+
+        AliPay(1,"支付宝");
+
+        PayPlatformEnum(int code, String value) {
+            this.value = value;
+            this.code = code;
+        }
+
+        private String value;
+        private int code;
+
+        public String getValue() {
+            return value;
+        }
+
+        public int getCode() {
+            return code;
+        }
+    }
+
+    public enum PaymentTypeEnum{
+
+        ONLINE_PAY(1,"在线支付");
+
+        PaymentTypeEnum(int code, String value) {
+            this.value = value;
+            this.code = code;
+        }
+
+        private String value;
+        private int code;
+
+        public String getValue() {
+            return value;
+        }
+
+        public int getCode() {
+            return code;
+        }
+
+
+        public static PaymentTypeEnum codeOf(int code){
+            for (PaymentTypeEnum paymentTypeEnum: values()) {
+                if (paymentTypeEnum.getCode() == code){
+                    return paymentTypeEnum;
+                }
+            }
+            throw new RuntimeException("没有找到对应的枚举");
+        }
+
     }
 
 

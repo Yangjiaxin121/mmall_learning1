@@ -191,7 +191,7 @@ public class ProductManagerController {
 
             resultMap.put("success",true);
             resultMap.put("msg","上传成功");
-            resultMap.put("file_path",targetFileName);
+            resultMap.put("file_path",url);
 
             response.setHeader("Access-Controller-Allow-Headers","X-File-Name");
             return resultMap;
