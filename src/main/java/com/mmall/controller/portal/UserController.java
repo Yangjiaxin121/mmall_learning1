@@ -45,8 +45,6 @@ public class UserController {
             //StandardSession[3A752D47F2446D8B5E92AAB827E640EC]
 
             CookieUtil.writeLoginCookie(httpServletResponse,session.getId());
-            CookieUtil.readLoginCookie(httpServletRequest);
-            CookieUtil.delLoginCookie(httpServletRequest,httpServletResponse);
             RedisPoolUtil.setEx(session.getId(), JsonUtil.object2String(response.getData()),Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
         }
         return response;
