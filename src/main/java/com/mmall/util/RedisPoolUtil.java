@@ -1,6 +1,5 @@
 package com.mmall.util;
 
-
 import com.mmall.common.RedisPool;
 import lombok.extern.slf4j.Slf4j;
 import redis.clients.jedis.Jedis;
@@ -105,17 +104,15 @@ public class RedisPoolUtil {
     public static void main(String[] args){
         Jedis jedis = RedisPool.getJedis();
 
-        RedisPoolUtil.set("set","value");
+        RedisShardedPoolUtil.set("set","value");
 
-        RedisPoolUtil.setEx("setex","valueex",60*10);
+        RedisShardedPoolUtil.setEx("setex","valueex",60*10);
 
-        RedisPoolUtil.expire("set",60*20);
+        RedisShardedPoolUtil.expire("set",60*20);
 
-        String result = RedisPoolUtil.get("set");
+        String result = RedisShardedPoolUtil.get("set");
 
-        Long l = RedisPoolUtil.del("set");
+        Long l = RedisShardedPoolUtil.del("set");
     }
-
-
 
 }
